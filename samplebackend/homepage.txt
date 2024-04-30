@@ -1,0 +1,38 @@
+<div>
+  <div class="flex flex-row justify-between bg-sky-200">
+     <div class="p-4 pt-2 font-bold"><p>Blogify</p></div>
+    <div class="flex flex-end">
+      <div class="p-4 pt-2 font-semibold"><a href="/register">Home</a></div>
+      <div class="p-4 pt-2 font-semibold"><a href="/login">Register</a></div>
+      <div class="p-4 pt-2 font-semibold"><a href="">Login</a></div>
+    </div>
+  </div>
+  <div class="grid grid-cols-3 grid-flow-row gap-5 bg-blue-50 p-6 style="background-image: url('https://th.bing.com/th?id=OIP.ATEKCmHM9DuW0GKIajD-0gAAAA&w=335&h=167&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2')">
+    <div class="col-span-2">
+      <p class="text-center p-5">Welcome to Blogify - Your Ultimate Blogging Destination!</p>
+      <p class="p-6">At Blogify, we're dedicated to providing you with a platform where you can unleash your creativity, share your thoughts, and connect with like-minded individuals from around the globe. Whether you're a seasoned writer or just getting started, Blogify offers you the tools and community support to bring your ideas to life.</p>
+      <p class="p-6">Ready to embark on your blogging journey? Join us today and start creating compelling content that resonates with audiences worldwide. With Blogify, the possibilities are endless. Let your voice be heard and make your mark in the blogosphere.<br>
+      </p><p class="text-center italic">Happy blogging!</p>
+    </div>
+    <div class="text-center italic p-12">
+      <p>Publish your passions your way</p>
+
+<p>Create a unique and beautiful blog easily.</p>
+      <button class="font-semibold m-4 p-3 bg-red-200 rounded-full
+      ">Create blog</button>
+    </div>
+  </div>
+</div>
+<div class="grid grid-cols-3 bg-blue-200 p-4">
+  <ul class="col-span-2">
+    <li class="font-semibold">Help</li>
+    <li>Help Center</li>
+    <li>Video Tutorials</li>
+  </ul>
+  <ul>
+    <li class="font-semibold">Terms of Service</li>
+    <li>Privacy</li>
+    <li>Content Policy</li>
+  </ul>
+</div>
+</div>
