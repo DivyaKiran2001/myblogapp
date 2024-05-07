@@ -129,3 +129,111 @@
     </p>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------ADD NEW BLOG ---------------------------------------------!>
+
+<html>
+<head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex items-center justify-center min-h-screen bg-gradient-to-t from-white to-pink-200 font-Poppins">
+        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-10/12">
+            <h2 class="text-2xl font-bold mb-4 text-center">Add New Blog</h2>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="title">Title</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="title" placeholder="Enter title">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="author">Author</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="author" placeholder="Enter author name">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="content">Content</label>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  id="content" placeholder="Enter blog content"></textarea>
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="file-upload">File Upload</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="file" id="file-upload">
+                <p class="text-sm text-gray-500">Accepted formats: .JPG, .JPEG, and .PNG</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+<!---------------------------------------  NAVBAR LOGIN ------------------------------------!>
+
+<html>
+<head>
+  <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+ 
+</head>
+<body>
+<div>
+  <div class="font-[Poppins] bg-gradient-to-t from-[white] to-[#ffc0cb56] h-screen">
+    <!--navbar-->
+    <div class="bg-white bg-gradient-to-t from-[pink] to-[white]">
+      <div class="flex justify-between items-center w-[92%] mx-auto py-2">
+        <div>
+          <img  class="w-12 rounded-full"   src="https://bloggify.org/wp-content/uploads/2021/03/beky.png.webp">
+        </div>
+        <div class="nav-links duration-500 md:static absolute bg-white- md:min-h-fit min-h-[20vh] left-0 top-[14%] md:w-auto w-full flex items-center px-4">
+          <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+            <li>
+              <a class="hover:text-gray-500"  href="#">Dashboard</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="#">Post New Blog</a>
+            </li>
+            <li>
+              <a class="hover:text-gray-500" href="#">View My Blogs</a>
+            </li>
+          </ul>
+        </div>
+        <!-- <div>
+          <button class="bg-[#ffc0cb91] rounded-full px-4 py-2">Logout
+          </button>
+           <MenuIcon className="h-6 w-6 text-white mr-2" />
+        </div> -->
+        <div class="flex items-center gap-6">
+                <button class="bg-[#ffc0cb91]  px-5 py-2 rounded-full   hover:bg-[rgba(236,135,194,0.34)] hover:text-gray-500">Logout</button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[14%]')
+        }
+    </script>
+</body>
+</html>
