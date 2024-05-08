@@ -1,0 +1,101 @@
+//app
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgxSlickModule } from 'ngx-slick-carousel';
+import { AppComponent } from './app.component';
+import { CarouselComponent } from 'src/carousel/carousel.component';
+
+@NgModule({
+  declarations: [AppComponent, CarouselComponent],
+  imports: [BrowserModule, NgxSlickModule],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+
+//carousel
+
+<h1 >Category</h1>
+<div style="margin-left:10%;margin-right:10%;margin-top:50px">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+            <img src="{{slide.img}}" alt="" class="img-style">
+        </div>
+    </ngx-slick-carousel>
+</div>
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.img-style {
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 992) {
+  .img-style {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+      
+    
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
+@Component({
+  selector: 'app-carousel',
+  templateUrl: './carousel.component.html',
+  styleUrls: ['./carousel.component.css'],
+})
+export class CarouselComponent {
+  title = 'CodeSandbox';
+
+  slides = [
+    {img: "assets/i1.jpg"},
+    {img: "assets/i1.jpg"},
+    {img: "assets/i1.jpg"},
+    {img: "assets/i1.jpg"},
+    {img: "assets/i1.jpg"},
+    {img: "assets/i1.jpg"},
+  ];
+
+  slideConfig = {
+    "slidesToShow":4,
+    "slideToScroll":4,
+    "autoplay":true,
+    "autoplaySpeed":5000,
+    "pauseOnHover":true,
+    "infinite":true,
+    "responsive":[
+        {
+            "breakpoint":992,
+            "settings":{
+                "arrows":true,
+                "infinite":true,
+                "slidesToShow":3,
+                "slideToScroll":3,
+            }
+        },
+        {
+            "breakpoint":768,
+            "settings":{
+                "arrows":true,
+                "infinite":true,
+                "slidesToShow":1,
+                "slideToScroll":1,
+            }
+        }
+    ]
+  }
+}
+
