@@ -54,9 +54,9 @@
 
 <body>
     <div>
-        <div class="font-[Poppins] bg-gradient-to-t from-[white] to-[#ffc0cb56]">
+        <div class="font-[Poppins] ">
             <!--navbar-->
-            <div class="bg-white bg-gradient-to-t from-[pink] to-[white]">
+            <div class="">
                 <div class="flex justify-between items-center w-[92%] mx-auto py-2">
                     <div>
                         <img class="w-12 rounded-full"
@@ -67,10 +67,10 @@
                         <ul
                             class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                             <li>
-                                <a class="hover:text-gray-500" href="#">Home</a>
+                                <a class="hover:text-gray-500 text-xl" href="#">Home</a>
                             </li>
                             <li>
-                                <a class="hover:text-gray-500" href="#">Register</a>
+                                <a class="hover:text-gray-500 text-xl" href="#">Register</a>
                             </li>
                             
                         </ul>
@@ -82,7 +82,7 @@
         </div> -->
                     <div class="flex items-center gap-6">
                         <button
-                            class="bg-[#ffc0cb91]  px-5 py-2 rounded-full   hover:bg-[rgba(236,135,194,0.34)] hover:text-gray-500">Sign
+                            class="bg-[#ffc0cb91]  px-5 py-2 rounded-full   hover:bg-[rgba(236,135,194,0.34)] hover:text-gray-500 text-xl">Sign
                             In</button>
                         <ion-icon onclick="onToggleMenu(this)" name="menu"
                             class="text-3xl cursor-pointer md:hidden"></ion-icon>
@@ -90,6 +90,7 @@
                 </div>
             </div>
         </div>
+        <div class="border border-gray-400 m-2"></div>
 
         <!---body-->
 
@@ -97,7 +98,7 @@
 
             <div class="grid md:grid-cols-3 grid-flow-row gap-5 font-[Poppins] p-6 style=" background-image:
                 url('https://th.bing.com/th?id=OIP.ATEKCmHM9DuW0GKIajD-0gAAAA&w=335&h=167&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2')">
-                <div class="col-span-2">
+                <div class="col-span-2 text-xl">
                     <p class="text-center pt-20">Welcome to Blogify - Your Ultimate Blogging Destination!</p>
                     <p class="p-6">At Blogify, we're dedicated to providing you with a platform where you can
                         unleash your
@@ -108,26 +109,50 @@
                         community
                         support to bring your ideas to life.<br>
                     </p>
-                    <p class="text-center italic">Happy blogging!</p>
+                    <p class="text-center italic text-pink-500 text-3xl">Happy blogging!</p>
+                    <svg class="animate-bounce w-6 h-6 ...">
+  <!-- ... -->
+</svg>
                 </div>
-                <div class="text-center italic p-12">
+                <div class="text-center italic p-12 text-pink-400 text-xl">
                     <p>Publish your passions your way</p>
-
                     <p>Create a unique and beautiful blog easily.</p>
-                    <button class="font-semibold m-4 p-3 bg-red-200 rounded-full">Create blog</button>
+                    <img src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEjx779LcNXLMs6EgJdNpXYj5ocZc8vwDXHxdTVdlD48ClrgYXizupcdXgNMZpYUk7tgptCX20JBvJCcqaMfVF1FHpO2-I4LwRiU7OkMVThYTi5HDOwPt_2lcPmOxZWwfOANOTDJnR62CvGYtnhW_UAExYixMVgLjL8htGM/w1024" class="h-[350px] w-[500px]"/>
                 </div>
             </div>
           </div>
-        <div class="grid grid-cols-3 bg-red-200 p-4">
+        <div class="grid grid-rows-3 pl-5">
+        <div >
+          <h1 class="font-semibold text-center text-3xl pb-5 pt-5 text-pink-400">Get a domain</h1>
+          <p class="font-sans text-center text-xl"><i>Give your blog the perfect home. Get a blogspot.com domain or buy a custom domain with just a few clicks.</i></p>
+          
+          <img src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgUBB5DXNlnFzdymjib0jVusprDx6SfFiwyrJ39T2ityg6G4u4mnREN21R7PzQPxJL-90vtRjbTw71h6P06dEbBMzVYQBHysdtWcib9UEwS5oQcPGdPuhbdB039V93PX-JvPG0HbOTFkTd_0Qv_yLgVvxi3VKMLQ0aZU5o/w1024" alt="Centered Image" class="pt-5 mx-auto rounded-sm w-[450px] h-[350px]">
+          
+        </div>
+        <div>
+          <h1 class="font-semibold text-center text-3xl pb-5 pt-5 text-pink-400">Hang onto your memories</h1>
+          <p class="font-sans text-center text-xl"><i>Save the moments that matter. Blogger lets you safely store thousands of posts, photos, and more with Google.</i></p>
+          <img src="https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgXsIMRUWZAjqTgybLi1m2hfUgOVwkJk2Bz6b8U8JLLecvQgRM4zu1uzCNUCc1tdTXsLSQbg5T0a0rbQCi_Ntl9jt6yfhGwjGNpoPWs8TxvTgVt4_RtkhIVHuvey7_DfH_aaAsjCd_aK_jAdn20gHaoyWYD82EiImoH_Y0/w384" alt="Memories" class="pt-5 mx-auto rounded-sm w-[250px] h-[350px]">
+        </div>
+        <div>
+          <h1 class="font-semibold text-center text-3xl pb-5 pt-5 text-pink-400">Join millions of others</h1>
+          <p class="font-sans text-center text-xl"><i>Whether sharing your expertise, breaking news, or whatever’s on your mind, you’re in good company on Blogger. Sign up to discover why millions of people have published their passions here.</i></p>
+          <div class="flex justify-center">
+          <button class="font-semibold m-4 p-5  bg-red-200 rounded-full text-xl">Create blog</button>
+          </div>
+        </div>
+        </div>
+        <div class="grid grid-cols-3 border border-gray-3
+        00 p-4">
             <ul class="col-span-2">
-                <li class="font-semibold">Help</li>
-                <li>Help Center</li>
-                <li>Video Tutorials</li>
+                <li class="font-semibold m-2 text-xl">Help</li>
+                <li class="p-2">Help Center</li>
+                <li class="p-2">Video Tutorials</li>
             </ul>
             <ul>
-                <li class="font-semibold">Terms of Service</li>
-                <li>Privacy</li>
-                <li>Content Policy</li>
+                <li class="font-semibold m-2 text-xl">Terms of Service</li>
+                <li class="p-2">Privacy</li>
+                <li class="p-2">Content Policy</li>
             </ul>
         </div>
     </div>
