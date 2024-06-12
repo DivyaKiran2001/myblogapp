@@ -1,0 +1,73 @@
+<div class="grid-flow-row gap-4 ml-5 mt-4">
+  <div class="mb-4 font-serif text-center">
+  <h1>Author Profile</h1>
+  </div>
+  <div class="mb-4">
+  <img alt="hello"></img>
+  </div>
+  <div class="mb-4 font-serif">
+  <p>User Name : </p>
+  </div>
+  <div class="mb-4 font-serif">
+  <p>Email : </p>
+  </div>
+  <div class="mb-4 font-serif">
+    <h1>Posted Blogs </h1>
+    <div>
+  <div class="grid md:grid-cols-3 pt-5 mx-auto px-6 gap-7">
+    <div class="bg-white">
+     <img src="https://images.pexels.com/photos/21674955/pexels-photo-21674955/free-photo-of-half-moon.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="w-[360px] h-[250px] rounded shadow-md"/>
+     <div class="grid justify-items-center text-justify gap-2 font-serif">
+         <div class="flex flex-row mt-5">
+          <p class="mr-5">Category : Life</p>
+          <p>Date Posted : </p>
+         </div>
+         <p class="font-bold">About the Moon</p>
+         <p>Author Name : </p>
+         
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero id mi ullamcorper congue sed nec ipsum. Integer nec ultricies ipsum. Nullam viverra magna nec libero pretium, in tempus nisi suscipit. Vivamus vitae ligula sit amet arcu suscipit fringilla. Donec id justo at sapien fermentum fermentum. Quisque non sagittis nisi. Nunc ac est nec nunc elementum aliquet. Cras sit amet felis nec lorem dapibus dictum. In lacinia ex vitae eros interdum, in tincidunt enim ultrices.
+           <div class="flex items-center justify-between">
+            <a href="blog-post-url" class="text-indigo-600 hover:text-indigo-900 flex items-center">
+              <span>Read Complete Blog</span>
+              <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+     <!-- <div class="flex flex-row justify-center">
+       <button class="px-4 pt-2 pb-2 m-2 bg-blue-500 font-serif rounded-xl">Edit</button>
+       <button class="px-4 pt-2 pb-2 m-2 bg-red-500 font-serif rounded-xl">Delete</button>
+     </div> -->
+    </div>
+   <div class="bg-white">
+     <img src="https://images.pexels.com/photos/21674955/pexels-photo-21674955/free-photo-of-half-moon.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" class="w-[360px] h-[250px] rounded"/>
+     <div class="grid justify-items-center text-justify gap-2 font-serif">
+         <div class="flex flex-row mt-5">
+          <p class="mr-5">Category : Life</p>
+          <p>Date Posted : </p>
+         </div>
+         <p class="font-bold">About the Moon</p>
+         <p>Author Name : </p>
+         
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec libero id mi ullamcorper congue sed nec ipsum. Integer nec ultricies ipsum. Nullam viverra magna nec libero pretium, in tempus nisi suscipit. Vivamus vitae ligula sit amet arcu suscipit fringilla. Donec id justo at sapien fermentum fermentum. Quisque non sagittis nisi. Nunc ac est nec nunc elementum aliquet. Cras sit amet felis nec lorem dapibus dictum. In lacinia ex vitae eros interdum, in tincidunt enim ultrices.
+           <div class="flex items-center justify-between">
+            <a href="blog-post-url" class="text-indigo-600 hover:text-indigo-900 flex items-center">
+              <span>Read Complete Blog</span>
+              <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+     <!-- <div class="flex flex-row justify-center">
+       <button class="px-4 pt-2 pb-2 m-2 bg-blue-500 font-serif rounded-xl">Edit</button>
+       <button class="px-4 pt-2 pb-2 m-2 bg-red-400 font-serif rounded-xl">Delete</button>
+     </div> -->
+    </div>
+  </div>
+</div>
+  </div>
+  
+</div>
