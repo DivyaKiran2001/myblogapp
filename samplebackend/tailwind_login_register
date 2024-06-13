@@ -209,15 +209,16 @@
 </head>
 <body>
 <div>
-  <div class="font-[Poppins] bg-gradient-to-t from-[white] to-[#ffc0cb56] h-screen">
+  <div class="font-[Poppins] text-xl h-screen">
     <!--navbar-->
-    <div class="bg-white bg-gradient-to-t from-[pink] to-[white]">
+    <div class="bg-white ">
       <div class="flex justify-between items-center w-[92%] mx-auto py-2">
         <div>
           <img  class="w-12 rounded-full"   src="https://bloggify.org/wp-content/uploads/2021/03/beky.png.webp">
         </div>
         <div class="nav-links duration-500 md:static absolute bg-white- md:min-h-fit min-h-[20vh] left-0 top-[14%] md:w-auto w-full flex items-center px-4">
           <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+            
             <li>
               <a class="hover:text-gray-500"  href="#">Dashboard</a>
             </li>
@@ -227,8 +228,11 @@
             <li>
               <a class="hover:text-gray-500" href="#">View My Blogs</a>
             </li>
+           
           </ul>
+         
         </div>
+        
         <!-- <div>
           <button class="bg-[#ffc0cb91] rounded-full px-4 py-2">Logout
           </button>
@@ -238,10 +242,17 @@
                 <button class="bg-[#ffc0cb91]  px-5 py-2 rounded-full   hover:bg-[rgba(236,135,194,0.34)] hover:text-gray-500">Logout</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
             </div>
+            
       </div>
+      
     </div>
+     <div class="border border-gray-400 m-2"></div>
   </div>
+  
+  
 </div>
+
+
   <script>
         const navLinks = document.querySelector('.nav-links')
         function onToggleMenu(e){
